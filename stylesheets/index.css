@@ -1,4 +1,3 @@
-/* CSS Styles */
 
 /* Paul Irish - Box-Sizing */
 html {
@@ -8,7 +7,77 @@ html {
     box-sizing: inherit;
   }
 
+/* BackGround Image */
 .hero-image {
+    background-image: url(../images/phone-road.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 1000px;
+    color: white;
     font-family: 'Neucha', cursive;
 }
 
+/* Name and Navigation */
+.top-bar {
+    background: rgba(0, 0, 0, .75)
+}
+
+/* Name */
+.title-bar {
+    /* border: 3px solid red; */
+    font-size: 30px;
+}
+
+/* Navigation */
+.nav {
+    /* border: 3px solid blue; */
+    font-size: 20px;
+    /* Padding removes the bullet points */
+    padding: 0;
+    /* Aligns the Navigation bar to be on the right side of the page */
+    float: right;
+    /* Lowers the bar to align better with the entire bar */
+    margin-top: 30px;
+}
+
+/* Puts the Name and Navigation on the same line */
+.top-bar .title-bar,
+.top-bar .nav {
+    display: inline-block;
+    padding: 0px 25px;
+}
+
+/* Navigation List Format */
+.nav li {
+    /* Changes list to horizontal format */
+    display: inline-block;
+    /* Puts spacing between the list items (horizontally) */
+    padding-left: 8px;
+}
+
+/* Welcome Message */
+.welcome-message {
+    /* border: 3px solid purple; */
+    /* Gives the Welcome Message a faint background to rest on */
+    background: rgba(0, 0, 0, 0.50);
+    /* Aligns all text to be in the center */
+    text-align: center;
+    /* Sets the width of the background text (prevents from having it be too wide) */
+    width: 75%;
+    /* Aligns the whole block to be in the center */
+    margin: auto;
+    margin-top: 125px;
+    padding: 5px;
+}
+
+/* Career Title */
+.welcome-title {
+    /* border: 3px solid green; */
+    font-size: 35px;
+}
+
+/* Career Statement */
+.welcome-statement {
+    /* border: 3px solid cyan; */
+    font-size: 20px;
+}
