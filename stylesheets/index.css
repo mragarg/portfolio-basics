@@ -1,1 +1,14 @@
 /* CSS Styles */
+
+/* Paul Irish - Box-Sizing */
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+.hero-image {
+    font-family: 'Neucha', cursive;
+}
+
